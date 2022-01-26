@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { Provider } from 'react-redux';
+import AppRouter from './routers/AppRouter';
+import './styles/styles.css';
+import { theme } from './theme/theme';
+import { configureStore, persistor } from './store/config/configureStore';
+import { PersistGate } from 'redux-persist/es/integration/react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+
+
+const App = () => (
+  <Provider store={configureStore}>
+    <PersistGate loading={null} persistor={persistor}>
+      <MuiThemeProvider theme={theme}>
+        <AppRouter />
+      </MuiThemeProvider>
+    </PersistGate>
+  </Provider>
+);
+
 
 export default App;
