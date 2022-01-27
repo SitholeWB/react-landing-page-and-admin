@@ -16,3 +16,8 @@ Open repository on your favorite IDE, like VS Code and start customizing it the 
 <img src="https://github.com/SitholeWB/react-lending-page-and-admin/blob/main/src/assets/img/login.jpg?raw=true" alt="alt text" title="lending page" />
 <img src="https://github.com/SitholeWB/react-lending-page-and-admin/blob/main/src/assets/img/register.jpg?raw=true" alt="alt text" title="lending page" />
 <img src="https://github.com/SitholeWB/react-lending-page-and-admin/blob/main/src/assets/img/admin.jpg?raw=true" alt="alt text" title="lending page" />
+
+
+# Contribution
+
+Open Pull Request at anytime with your changes, I will approve.
