@@ -1,4 +1,4 @@
-# React lending page and admin
+# React lending page and admin (Simple template)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
