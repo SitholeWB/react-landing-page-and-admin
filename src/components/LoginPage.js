@@ -93,6 +93,7 @@ export class LoginPage extends React.Component {
                   helperText={this.state.emailError}
                   onChange={(event) => this.handleEmailTextFieldChange(event, 'email' )}
                 />
+                <span style={{color: 'red', fontStyle: 'italic'}}>Any random email will work for this demo</span>
               </div>
 
               <div className="loginformgroup">
@@ -106,6 +107,7 @@ export class LoginPage extends React.Component {
                   helperText={this.state.passwordError}
                   onChange={(event)=>this.handlePasswordTextFieldChange(event, 'password')}
                 />
+                <span style={{color: 'red', fontStyle: 'italic'}}>Any random password will work for this demo</span>
               </div>
             </form>
 
