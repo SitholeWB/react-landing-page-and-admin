@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-lending-page-and-admin/static/css/main.a7970b95.chunk.css",
-    "main.js": "/react-lending-page-and-admin/static/js/main.7ebb4026.chunk.js",
-    "main.js.map": "/react-lending-page-and-admin/static/js/main.7ebb4026.chunk.js.map",
+    "main.js": "/react-lending-page-and-admin/static/js/main.439834df.chunk.js",
+    "main.js.map": "/react-lending-page-and-admin/static/js/main.439834df.chunk.js.map",
     "runtime-main.js": "/react-lending-page-and-admin/static/js/runtime-main.535f37f8.js",
     "runtime-main.js.map": "/react-lending-page-and-admin/static/js/runtime-main.535f37f8.js.map",
     "static/css/2.325cd7b1.chunk.css": "/react-lending-page-and-admin/static/css/2.325cd7b1.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.325cd7b1.chunk.css",
     "static/js/2.61db016f.chunk.js",
     "static/css/main.a7970b95.chunk.css",
-    "static/js/main.7ebb4026.chunk.js"
+    "static/js/main.439834df.chunk.js"
   ]
 }
