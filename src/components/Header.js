@@ -111,8 +111,8 @@ class Header extends React.Component {
               <IconButton className="iconbuttonsyle" color="inherit" aria-label="Menu" onClick={() => this.onLeftIconButtonClick()}>
                 <MenuIcon />
               </IconButton>
-              <Typography variant="h5" color="inherit" className="headertypoclass" >
-                Landing Page and Admin
+              <Typography variant="h5" color="inherit" className="headertypoclass" >               
+                <Link to="/">Lending Page and Admin</Link>
               </Typography>
 
               {
