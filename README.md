@@ -1,8 +1,8 @@
-# React lending page and admin
+# React lending page and admin (Simple template)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<a href="https://sitholewb.github.io/react-lending-page-and-admin" target="_blank">View demo in new tab -> https://sitholewb.github.io/react-lending-page-and-admin</a>
+<a href="https://sitholewb.github.io/react-lending-page-and-admin" target="_blank">View demo -> https://sitholewb.github.io/react-lending-page-and-admin</a>
 
 # Get Started
 
