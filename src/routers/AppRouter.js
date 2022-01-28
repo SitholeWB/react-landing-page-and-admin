@@ -20,7 +20,7 @@ import UniversityPage from '../components/UniversityPage';
 
 
 const AppRouter = () => (
-  <BrowserRouter basename='/react-lending-page-and-admin'>
+  <BrowserRouter basename='/react-landing-page-and-admin'>
     <div>
 
       <Switch>

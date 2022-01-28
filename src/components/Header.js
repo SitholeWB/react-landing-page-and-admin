@@ -112,7 +112,7 @@ class Header extends React.Component {
                 <MenuIcon />
               </IconButton>
               <Typography variant="h5" color="inherit" className="headertypoclass" >               
-                <Link to="/">Lending Page and Admin</Link>
+                <Link to="/">Landing Page and Admin</Link>
               </Typography>
 
               {
