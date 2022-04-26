@@ -89,13 +89,13 @@ class Header extends React.Component {
               )}
               {/* end of testing */}
 
-              {this.props.tokenObject && this.props.tokenObject.role.includes('ADMIN') && (
+              {this.props.tokenObject && this.props.tokenObject?.role?.includes('ADMIN') && (
                 <React.Fragment>
                   <AdminNavList />
                 </React.Fragment>
               )}
 
-              {this.props.tokenObject && this.props.tokenObject.role.includes('SUPER_ADMIN') && (
+              {this.props.tokenObject && this.props.tokenObject?.role?.includes('SUPER_ADMIN') && (
                 <React.Fragment>
                   <SuperAdminNavList />
                 </React.Fragment>
