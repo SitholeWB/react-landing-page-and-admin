@@ -1,23 +1,23 @@
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { BrowserRouter, Switch } from 'react-router-dom';
+import Main from './Main'
+import { PersistGate } from 'redux-persist/integration/react'
+import { persistStore } from 'redux-persist'
+import configureStore from './store/config/store';
 import { Provider } from 'react-redux';
-import AppRouter from './routers/AppRouter';
-import './styles/styles.css';
-import { theme } from './theme/theme';
-import { configureStore, persistor } from './store/config/configureStore';
-import { PersistGate } from 'redux-persist/es/integration/react'
 
+let persistor = persistStore(configureStore);
 
+function App() {
+  return (
 
-
-const App = () => (
-  <Provider store={configureStore}>
-    <PersistGate loading={null} persistor={persistor}>
-      <MuiThemeProvider theme={theme}>
-        <AppRouter />
-      </MuiThemeProvider>
-    </PersistGate>
-  </Provider>
-);
-
+    <Provider store={configureStore}>
+      <PersistGate loading={null} persistor={persistor}>
+        <BrowserRouter>
+          <Main />
+        </BrowserRouter >
+      </PersistGate>
+    </Provider>
+  );
+}
 
 export default App;
